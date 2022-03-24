@@ -1,7 +1,7 @@
 # Sudoku
 通过输入数独矩阵可以返回候选值或答案
 
-##code:
+## code:
 ```python
 from numpy import array
 print("本程序为计算数独候选值的程序\n请按行输入数独表格内容,未知数请填0，用空格分隔，输入完一行按回车\n--------------------------------------------------------------------------------\n")
@@ -30,7 +30,7 @@ for i in range(9):
 keys = dict_data.keys()
 
 for i in keys:
-    r=int(i[0])+1
+    r=int(i[0])+1  
     n=int(i[1])+1
     print('第',r,'行',n,'列的候选值为：' )
     #print("第%q行%p列的候选值为：" %(q,p))
