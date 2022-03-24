@@ -95,7 +95,7 @@ def uudu(data,flag):
     
 
 flag=int(input('--------------------------------\n请输入1查看候选数，输入2查看结果: '))   
-hjuu(data,flag)
+uudu(data,flag)
 gg=int(input('你可以输入2查看结果，否则任意键退出：'))
 if gg==2:
     flag=2
